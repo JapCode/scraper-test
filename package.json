@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-security": "^1.7.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.6.3"
+  },
+  "name": "personal-projects",
+  "version": "1.0.0",
+  "description": "An api with JWT to authentication and scraper for a blog",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "JWT"
+  ],
+  "author": "JapCode",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "playwright": "^1.30.0",
+    "prettier": "2.8.3"
+  }
+}
