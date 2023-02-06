@@ -36,6 +36,7 @@ const userSchema = new Schema({
     type: String,
     required: [true, 'Password is required'],
   },
+  articles: [{ type: Schema.Types.ObjectId, ref: 'Articles' }],
 });
 
 userSchema.set('toJSON', {
